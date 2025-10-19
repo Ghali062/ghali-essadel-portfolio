@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ghali-essadel-portfolio/static/css/main.cd0fa5a8.css",
+    "main.css": "/ghali-essadel-portfolio/static/css/main.f0334126.css",
     "main.js": "/ghali-essadel-portfolio/static/js/main.813a63d4.js",
     "static/js/453.b05d8aa5.chunk.js": "/ghali-essadel-portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/photodeprofil.jpg": "/ghali-essadel-portfolio/static/media/photodeprofil.80ec9c42e5cfebfaf9eb.jpg",
     "static/media/bg-light.png": "/ghali-essadel-portfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/ghali-essadel-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "index.html": "/ghali-essadel-portfolio/index.html",
-    "main.cd0fa5a8.css.map": "/ghali-essadel-portfolio/static/css/main.cd0fa5a8.css.map",
+    "main.f0334126.css.map": "/ghali-essadel-portfolio/static/css/main.f0334126.css.map",
     "main.813a63d4.js.map": "/ghali-essadel-portfolio/static/js/main.813a63d4.js.map",
     "453.b05d8aa5.chunk.js.map": "/ghali-essadel-portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd0fa5a8.css",
+    "static/css/main.f0334126.css",
     "static/js/main.813a63d4.js"
   ]
 }
