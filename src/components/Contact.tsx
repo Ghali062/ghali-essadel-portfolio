@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import '../assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
@@ -18,35 +18,37 @@ function Contact() {
 
   const form = useRef();
 
-  const sendEmail = (e: any) => {
+  const sendEmail = async (e: any) => {
     e.preventDefault();
 
-    setNameError(name === '');
-    setEmailError(email === '');
-    setMessageError(message === '');
+    const invalidName = name.trim() === '';
+    const invalidEmail = email.trim() === '';
+    const invalidMessage = message.trim() === '';
 
-    /* Uncomment below if you want to enable the emailJS */
+    setNameError(invalidName);
+    setEmailError(invalidEmail);
+    setMessageError(invalidMessage);
 
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
+    if (invalidName || invalidEmail || invalidMessage) return;
 
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
+    try {
+      const templateParams = {
+        name,
+        email,
+        message,
+      };
+
+      // Replace with your EmailJS IDs: https://dashboard.emailjs.com/admin
+      await emailjs.send('service_3ss3a2j', 'template_8vuseug', templateParams, 'V0US4xeL7zLQ9SPp6');
+
+      setName('');
+      setEmail('');
+      setMessage('');
+
+      console.log('SUCCESS! Your message has been sent.');
+    } catch (error) {
+      console.error('FAILED to send message:', error);
+    }
   };
 
   return (
@@ -55,6 +57,9 @@ function Contact() {
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <p style={{ marginTop: '10px', fontSize: '1.1em' }}>
+            <strong>Email:</strong> <a href="mailto:g.essadel@gmail.com" style={{ color: '#5000ca', textDecoration: 'none' }}>g.essadel@gmail.com</a>
+          </p>
           <Box
             ref={form}
             component="form"

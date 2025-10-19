@@ -144,6 +144,17 @@ p, a, h1, h2, h3, h4, h5, label, button {
   .flex-chips .chip-title {
     color: #0d1116;
   }
+
+  /* Ensure bio text switches to black in light mode */
+  .about-section .content .bio {
+    p {
+      color: #0d1116;
+    }
+
+    strong {
+      color: #0d1116;
+    }
+  }
 }
 
 @media screen {
