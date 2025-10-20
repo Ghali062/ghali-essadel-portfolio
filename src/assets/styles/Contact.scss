@@ -46,3 +46,36 @@ form {
   width: 100% !important;
   margin-bottom: 15px !important;
 }
+
+/* Ensure Contact section text is readable (black on white background) */
+.contact_wrapper {
+  h1, p, label, a {
+    color: #0d1116 !important;
+  }
+
+  /* MUI TextField label, input text, and helper text */
+  .MuiFormLabel-root {
+    color: #0d1116 !important;
+  }
+
+  .MuiInputBase-input {
+    color: #0d1116 !important;
+  }
+
+  .MuiFormHelperText-root {
+    color: #0d1116 !important;
+  }
+
+  /* Keep inputs clearly outlined on white */
+  .MuiOutlinedInput-root {
+    background-color: white;
+  }
+
+  .MuiOutlinedInput-root fieldset {
+    border-color: rgba(0, 0, 0, 0.23);
+  }
+
+  .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #5000ca;
+  }
+}

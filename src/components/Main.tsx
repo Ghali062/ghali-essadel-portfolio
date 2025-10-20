@@ -30,7 +30,7 @@ function Main() {
               scikit-learn, PyTorch, and Cloud deployment.
             </p>
             <p>
-              <strong>Currently seeking a 6-month Data Science internship starting February 2026.</strong>
+              <strong> Seeking a 6-month Data Science internship starting February 2026.</strong>
             </p>
           </div>
 
