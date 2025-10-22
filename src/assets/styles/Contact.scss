@@ -66,9 +66,30 @@ form {
     color: #0d1116 !important;
   }
 
+  /* Placeholder color (for inputs and multiline textarea) */
+  .MuiInputBase-input::placeholder,
+  .MuiOutlinedInput-input::placeholder {
+    color: rgba(13,17,22,0.6) !important;
+    opacity: 1 !important; /* ensure placeholder visible in all browsers */
+  }
+
+  /* For multiline inputs MUI uses textarea classes */
+  .MuiInputBase-root textarea {
+    color: #0d1116 !important;
+    background-color: white !important;
+  }
+
   /* Keep inputs clearly outlined on white */
   .MuiOutlinedInput-root {
     background-color: white;
+  }
+
+  /* Ensure the input element itself (not just root) has white background */
+  .MuiOutlinedInput-input,
+  .MuiOutlinedInput-inputMultiline,
+  .MuiInputBase-input {
+    background-color: white !important;
+    color: #0d1116 !important;
   }
 
   .MuiOutlinedInput-root fieldset {
