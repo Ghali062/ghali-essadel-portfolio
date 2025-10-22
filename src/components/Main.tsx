@@ -23,16 +23,17 @@ function Main() {
 
           <div className="bio">
             <p>
-              Final-year Applied Mathematics & Computer Science student at Polytech Sorbonne, 
-              specializing in Machine Learning and predictive analytics. Proven track record 
-              automating data pipelines, building ML models, and delivering 
-              actionable insights that drive business decisions. Experienced with Python, 
-              scikit-learn, PyTorch, and Cloud deployment.
+              Final-year Applied Mathematics & Computer Science student at <strong>Polytech Sorbonne</strong>, 
+              also pursuing a <strong>Master in Management</strong> at <strong>IAE Paris–Sorbonne</strong>.  
+              Skilled in <strong>Python, PyTorch, FastAPI, Power BI</strong>, and predictive modeling.  
+              Experienced in building ML solutions for customer value, credit approval, and energy forecasting.
             </p>
             <p>
-              <strong> Seeking a 6-month Data Science internship starting February 2026.</strong>
+              <strong>Seeking a 6-month Data Science internship starting February 2026.</strong>
             </p>
           </div>
+
+
 
           <div className="cta-buttons">
             <a href={`${process.env.PUBLIC_URL}/CV_Ghali_Essadel.pdf`} download="Ghali_Essadel_CV.pdf" className="download-cv-btn">
