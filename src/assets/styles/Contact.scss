@@ -47,13 +47,19 @@ form {
   margin-bottom: 15px !important;
 }
 
-/* Ensure Contact section text is readable (black on white background) */
+/* Contact section styling - purple background with readable text */
 .contact_wrapper {
-  h1, p, label, a {
-    color: #0d1116 !important;
+  background: linear-gradient(135deg, #5000ca 0%, #6a00f4 100%);
+  padding: 30px;
+  border-radius: 8px;
+
+  /* Titles and paragraphs on purple background should be white */
+  h1, p, a {
+    color: #ffffff !important;
   }
 
-  /* MUI TextField label, input text, and helper text */
+  /* MUI TextField label, input text, and helper text
+     Keep input-related text dark to remain readable on white input backgrounds */
   .MuiFormLabel-root {
     color: #0d1116 !important;
   }

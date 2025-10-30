@@ -16,7 +16,16 @@ function Project() {
                 <p>Development of a scoring model predicting the probability of borrower default according to IFRS 9 / Basel III criteria.</p>
                 <p><em>Tools:</em> Python (pandas, scikit-learn, XGBoost, LightGBM), SQL, Power BI, MLflow, Docker.</p>
             </div>
-            
+            <div className="project">
+                <h2>CLV Prediction App</h2>
+                <p>Random Forest model predicting customer lifetime value and segmenting clients (Low to Premium) for telecom marketing.</p>
+                <p><em>Tech:</em> Python, scikit-learn, Pandas, Streamlit, Power BI.</p>
+            </div>
+            <div className="project">
+                <h2>RFM Segmentation </h2>
+                <p>PCA + K-means clustering for behavioral segmentation and targeted marketing optimization.</p>
+                <p><em>Tech:</em> Python, Pandas, scikit-learn, PyTorch, Autoencoders, Power BI.</p>
+            </div>
             <div className="project">
                 <h2>Climate Change Signal Detection</h2>
                 <p>Optimal Fingerprint statistical method detecting anthropogenic signals in temperature datasets.</p>
