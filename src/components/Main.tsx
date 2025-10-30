@@ -1,7 +1,6 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import DownloadIcon from '@mui/icons-material/Download';
 import '../assets/styles/Main.scss';
 import pdp from '../assets/images/photodeprofil.jpg';
 
@@ -35,11 +34,7 @@ function Main() {
 
 
 
-          <div className="cta-buttons">
-            <a href={`${process.env.PUBLIC_URL}/CV_Ghali_Essadel.pdf`} download="Ghali_Essadel_CV.pdf" className="download-cv-btn">
-              <DownloadIcon /> Download CV
-            </a>
-          </div>
+          {/* Download CV button removed as requested */}
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Ghali062" target="_blank" rel="noreferrer"><GitHubIcon/></a>

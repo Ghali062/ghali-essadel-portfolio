@@ -7,20 +7,16 @@ function Project() {
         <h1>Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <h2>CLV Prediction App</h2>
-                <p>Random Forest model predicting customer lifetime value and segmenting clients (Low to Premium) for telecom marketing.</p>
-                <p><em>Tech:</em> Python, scikit-learn, Pandas, Streamlit, Power BI.</p>
+                <h2>Electricity Consumption Forecasting and Grid Planning</h2>
+                <p>Modeling electricity consumption to anticipate peak loads and optimize grid planning.</p>
+                <p><em>Tools:</em> Python, Prophet, LSTM, SHAP, PySpark, Kafka, Airflow, MLflow, FastAPI, Streamlit, Grafana, Docker, SQL, APIs, Open Data.</p>
             </div>
             <div className="project">
-                <h2>RFM Segmentation </h2>
-                <p>PCA + K-means clustering for behavioral segmentation and targeted marketing optimization.</p>
-                <p><em>Tech:</em> Python, Pandas, scikit-learn, PyTorch, Autoencoders, Power BI.</p>
+                <h2>Credit Risk Analysis and Banking Scoring</h2>
+                <p>Development of a scoring model predicting the probability of borrower default according to IFRS 9 / Basel III criteria.</p>
+                <p><em>Tools:</em> Python (pandas, scikit-learn, XGBoost, LightGBM), SQL, Power BI, MLflow, Docker.</p>
             </div>
-            <div className="project">
-                <h2>Energy Consumption Forecasting</h2>
-                <p>Short-term power consumption forecasting using Prophet and LSTM for predictive analytics.</p>
-                <p><em>Tech:</em> Python, scikit-learn, Pandas, Prophet, LSTM, Seaborn.</p>
-            </div>
+            
             <div className="project">
                 <h2>Climate Change Signal Detection</h2>
                 <p>Optimal Fingerprint statistical method detecting anthropogenic signals in temperature datasets.</p>
